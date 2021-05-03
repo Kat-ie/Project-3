@@ -1,0 +1,241 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: flex;
+  height: 70px;
+}
+
+.header-logo {
+  width: 47%;
+  height: 30px;
+  margin: 20px auto;
+}
+
+.explore__location {
+  background-color: rgb(234, 234, 234);
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+.fa-map-marker-alt {
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+.explore__choice {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(246, 246, 246);
+}
+.explore__choice h1 {
+  text-align: center;
+  line-height: 60px;
+  font-size: 27px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.explore__choice h2 {
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.explore__btn {
+  background-image: linear-gradient(#ff79da, #9356dc);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  width: 70%;
+  padding: 0px 30px;
+  margin: 45px auto;
+}
+
+.how {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.how h1 {
+  font-size: 26px;
+  margin: 50px 0px 40px 25px;
+}
+
+.how__steps {
+  display: flex;
+  position: relative;
+  height: 80px;
+  border-radius: 25px;
+  width: 85%;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px auto;
+  background-color: rgb(246, 246, 246);
+  -webkit-box-shadow: 0px 3px 13px 1px #c5c5c5;
+  box-shadow: 0px 3px 13px 1px #c5c5c5;
+}
+
+.how__steps-number {
+  position: absolute;
+  left: -15px;
+  top: 25px;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  background-color: #9356dc;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.how__steps-icon {
+  font-size: 22px;
+  padding: 27px 25px 22px 35px;
+  color: rgb(126 126 126);
+}
+
+.how__steps-text {
+  font-size: 18px;
+  line-height: 80px;
+}
+
+/*       <section class="restaurants">
+        <div class="restaurants__card">
+          <div class="restaurants__card-top">
+            <img
+              src="./images-pr3/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+              alt=""
+              class="restaurants__card-img"
+            />
+          </div>
+          <div class="restaurants__card-bottom">
+            <h3>The full Palete</h3>
+            <h4>New York</h4>
+          </div>
+        </div> */
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(246, 246, 246);
+}
+
+.restaurants h1 {
+  font-size: 26px;
+  line-height: 50px;
+  padding: 30px 0px 10px 20px;
+}
+.restaurants__card {
+  display: flex;
+  flex-direction: column;
+  height: 270px;
+  width: 90%;
+  border-radius: 15px;
+  margin: 20px auto;
+  background-color: white;
+  position: relative;
+}
+.restaurants__card-top {
+  height: 70%;
+  width: 100%;
+}
+.restaurants__card-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.restaurants__card-bottom {
+  height: auto;
+}
+
+.restaurants__card-bottom h3 {
+  font-size: 20px;
+  padding: 10px 0px 7px 10px;
+}
+.restaurants__card-bottom h4 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.restaurants__card-new {
+  background-color: #99e2d0;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  width: 80px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-weight: 700;
+  color: #269e80;
+  border-radius: 5px;
+}
+
+.fa-heart {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  font-size: 30px;
+}
+
+/*       <footer class="footer-main">
+        <img src="./images-pr3/logo/ohmyfood.png" alt="" class="footer__logo" />
+        <ul>
+          <li class="footer-nav">
+            <i class="fas fa-utensils"></i>Suggest a restaurant
+          </li>
+          <li class="footer-nav">
+            <i class="fas fa-hands-helping"></i>Become a partner
+          </li>
+          <li class="footer-nav">Legal</li>
+          <li class="footer-nav">Contact</li>
+        </ul> */
+
+.footer-main {
+  color: white;
+  background-color: #353535;
+}
+
+.footer__logo {
+  font-family: "Shrikhand", cursive;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 10;
+  padding: 20px;
+}
+
+.footer__nav {
+  padding: 10px 0px 5px 20px;
+}
+
+.fa-hands-helping {
+  padding-right: 10px;
+}
+
+.fa-utensils {
+  padding-right: 10px;
+}
+
+ul:last-child {
+  padding-bottom: 40px;
+}
