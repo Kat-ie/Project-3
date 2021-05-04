@@ -21,6 +21,11 @@ body {
   margin: 20px auto;
 }
 
+.fa-arrow-left {
+  font-size: 20px;
+  padding: 25px 0px 0px 25px;
+}
+
 .explore__location {
   background-color: rgb(234, 234, 234);
   height: 50px;
@@ -118,20 +123,6 @@ body {
   line-height: 80px;
 }
 
-/*       <section class="restaurants">
-        <div class="restaurants__card">
-          <div class="restaurants__card-top">
-            <img
-              src="./images-pr3/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-              alt=""
-              class="restaurants__card-img"
-            />
-          </div>
-          <div class="restaurants__card-bottom">
-            <h3>The full Palete</h3>
-            <h4>New York</h4>
-          </div>
-        </div> */
 .restaurants {
   display: flex;
   flex-direction: column;
@@ -152,6 +143,8 @@ body {
   margin: 20px auto;
   background-color: white;
   position: relative;
+  text-decoration: none;
+  color: black;
 }
 .restaurants__card-top {
   height: 70%;
@@ -198,19 +191,6 @@ body {
   font-size: 30px;
 }
 
-/*       <footer class="footer-main">
-        <img src="./images-pr3/logo/ohmyfood.png" alt="" class="footer__logo" />
-        <ul>
-          <li class="footer-nav">
-            <i class="fas fa-utensils"></i>Suggest a restaurant
-          </li>
-          <li class="footer-nav">
-            <i class="fas fa-hands-helping"></i>Become a partner
-          </li>
-          <li class="footer-nav">Legal</li>
-          <li class="footer-nav">Contact</li>
-        </ul> */
-
 .footer-main {
   color: white;
   background-color: #353535;
@@ -238,4 +218,80 @@ body {
 
 ul:last-child {
   padding-bottom: 40px;
+}
+
+/* nowy index full palette */
+
+.main-img {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.restaurant-name {
+  padding: 35px 15px 15px 20px;
+  border-radius: 25px 25px 0px 0px;
+  background-color: rgb(246, 246, 246);
+  position: absolute;
+  width: 100%;
+  top: 284px;
+  left: 0px;
+}
+.restaurant-name h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+.menu__card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(246, 246, 246);
+}
+
+.menu-choice {
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0 0 5px 20px;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background-color: #99e2d0;
+  margin-left: 20px;
+}
+
+.entrees__menu h3 {
+  text-transform: none;
+  font-weight: 600;
+}
+
+.entrees__menu {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0 0 10px 20px;
+}
+
+.menu__container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  padding: 15px 20px 15px 20px;
+  margin: 10px auto;
+  width: 90%;
+}
+
+.menu__text p {
+  display: inline-block;
+  padding-top: 7px;
+}
+.menu__text {
+  display: flex;
+  justify-content: space-between;
+}
+.order-btn {
+  width: 50%;
+  margin: 35px auto;
 }
